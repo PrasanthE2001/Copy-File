@@ -19,6 +19,8 @@ Copy the content of text file to empty file using write function.
 Program to copy file
 Developed by: PRASANTH E
 Register number : 212221233002
+
+
 with open("write.txt",'r') as file1:
     msg=file1.read()
 with open("copy.txt",'w') as file2:
@@ -26,9 +28,7 @@ with open("copy.txt",'w') as file2:
 ```
 ### OUTPUT:
 
-![OUTPUT](<Screenshot 2024-05-13 172508.png>)
-![OUTPUT](image.png)
-
+![alt text](<exp 11.png>)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
