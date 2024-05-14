@@ -6,29 +6,38 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Create a text file with some content in it.
-### Step 2: 
- Open the created text file.
-### Step 3: 
-Create another empty text file.
-### Step 4:  
-Copy the content of text file to empty file using write function.
+Get the file name and location from the user.
+
+### Step 2:
+Give a new file name to create a copy of a file content.
+
+### Step 3:
+Read the file and close the file.
+
+### Step 4:
+Now write the content in the new file.
+
+### Step 5:
+When done print"File copied successfully".
+
+### Step 6:
+End of the program
 
 ## PROGRAM:
 ```
-Program to copy file
-Developed by: PRASANTH E
-Register number : 212221233002
+#Developed by: PRASANTH E
+#Register Number: 212221233002
 
-
-with open("write.txt",'r') as file1:
-    msg=file1.read()
-with open("copy.txt",'w') as file2:
-    file2.write(msg)
+with open("text1.txt", 'r') as fp:
+    msg=fp.read()
+with open("copy.txt", 'w') as fp1:
+    fp1.write(msg)
 ```
+
 ### OUTPUT:
 
-![alt text](<exp 11.png>)
+![Screenshot 2024-05-11 173641](https://github.com/Aravindan2006/Copy-File/assets/151760062/8949552f-4ae6-4105-8e01-4a95d3ae5f4a)
+
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
